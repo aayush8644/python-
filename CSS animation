@@ -1,0 +1,23 @@
+@keyframes bikeTire {
+    from {
+        animation-timing-function: ease-in;
+        stroke-dashoffset: 56.549;
+        transform: rotate(0);
+    }
+
+    33% {
+        stroke-dashoffset: 0;
+        transform: rotate(0.33turn);
+    }
+
+    67% {
+        animation-timing-function: ease-out;
+        stroke-dashoffset: 0;
+        transform: rotate(0.67turn);
+    }
+
+    to {
+        stroke-dashoffset: 56.549;
+        transform: rotate(1turn);
+    }
+}
